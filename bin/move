@@ -9,5 +9,9 @@ puts "Where would you like to go?"
 input = gets.strip
 
 index = input_to_index(input)
+<<<<<<< HEAD
 move(board, index)
+=======
+move(board, index, "X")
+>>>>>>> eb2c74629fc25f977dd767758535a9d3e3b4443a
 display_board(board)
